@@ -12,12 +12,12 @@ const fs = require("fs");
 // ══════════════════════════════════════════════════════════
 //  CONFIG  —  edit these values
 // ══════════════════════════════════════════════════════════
-const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"; // Your Discord bot token
+const BOT_TOKEN = "MTQ5ODIyNDYwNTY2MjU0Nzk5OA.GEIAG2.1WS1l2AtRLYG9ECk0N8_HFLzQaV3TPjxxU3ux4"; // Your Discord bot token
 const PREFIX    = "!";                   // Command prefix
 const DATA_FILE = "./players.json";      // Database file (auto-created)
 
 // Role IDs allowed to use mod commands. Set to [] to allow everyone.
-const ADMIN_ROLE_IDS = []; // e.g. ["1234567890", "9876543210"]
+const ADMIN_ROLE_IDS = ["1458121371044417707","1458121383455494409","1458121372839575593"]; // e.g. ["1234567890", "9876543210"]
 // ══════════════════════════════════════════════════════════
 
 const client = new Client({
