@@ -12,7 +12,7 @@ const fs = require("fs");
 // ══════════════════════════════════════════════════════════
 //  CONFIG  —  edit these values
 // ══════════════════════════════════════════════════════════
-const BOT_TOKEN = "MTQ5ODIyNDYwNTY2MjU0Nzk5OA.GEIAG2.1WS1l2AtRLYG9ECk0N8_HFLzQaV3TPjxxU3ux4"; // Your Discord bot token
+const BOT_TOKEN = "const BOT_TOKEN = process.env.BOT_TOKEN"; // Your Discord bot token
 const PREFIX    = "!";                   // Command prefix
 const DATA_FILE = "./players.json";      // Database file (auto-created)
 
